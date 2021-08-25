@@ -1,19 +1,21 @@
 {
-  "name": "learn",
+  "name": "node-example",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "This example is so cool.",
+  "main": "web.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Verikaaren/freecodeCampNode.git"
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "jane-doe",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.9.8"
   },
-  "author": "Jane Doe",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Verikaaren/freecodeCampNode/issues"
-  },
-  "homepage": "https://github.com/Verikaaren/freecodeCampNode#readme"
+  "engines": {
+    "node": "14.x"
+  }
 }
